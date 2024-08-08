@@ -1,5 +1,4 @@
 # task-tracker
-task-tracker-api
 
 This API for tracking your tasks, built with FastAPI, also follows the mediator pattern.
 
