@@ -1,12 +1,14 @@
 # task-tracker
 task-tracker-api
-This is api for tracker your tasks
+
+This API for tracking your tasks, built with FastAPI, also follows the mediator pattern.
+
 
 What you can do with api?
 
--CRUD for task
+- CRUD for task
 
--Create categor for ur tasks
+- Create categor for ur tasks
 
--find out statistics about your tasks
+- find out statistics about your tasks
 
