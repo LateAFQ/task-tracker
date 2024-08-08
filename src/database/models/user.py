@@ -11,5 +11,4 @@ class User(Base):
 
     id: Mapped[int] = mapped_column (primary_key=True)
     login: Mapped[str] = mapped_column(String, nullable=False, unique=True)
-    email: Mapped[Optional[str]] = mapped_column(String, unique=True, nullable=True)
     hashed_password: Mapped[str] = mapped_column(String, nullable=False)
